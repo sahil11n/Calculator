@@ -1,7 +1,6 @@
 let screen = document.getElementById('screen');
 // if(screen.startswith("0"))
 // screen.value="0";
-//screen.defaultvalue='0';
 buttons = document.querySelectorAll('button');
 let screenValue='0';
 for(item of buttons){
