@@ -78,32 +78,27 @@ for(item of buttons){
     })
 }
 
-
-// function checkZero(){
-//    var screen = document.getElementById("screen").value;
-//     if(screen.startsWith("0")){
-//        document.getElementById("screen").value = "0";
+// function disable(){ 
+//     if(screen.value){
+//         screen.disabled='false';
 //     }
-  
-//   }
-//  function decimal(num){
-    
-//         var number = document.getElementById("screen");
-// number.value += num;
-// console.log(number.value);
-// document.getElementById("screen").innerHTML=2;
+//     else{
+//     screen.disabled='true';
+//     }
 // }
+
 
  function showAlert(){
       if(screen.value.startsWith('0') && screen.value.length === 1){
          alert("Enter some values");
       }
-    try{
-        screen.value = eval(screen.value);
-    }
-    catch(err){
-        alert("enter valid input");
-    }
+    // try{
+    //     screen.value = eval(screen.value);
+    // }
+    // catch(err){
+    //     alert("enter valid input");
+    
+    // }
     //       var r=eval(screen.value)
     //       var num=parseFloat(r)
     //       screen.value=num.toFixed(1)
